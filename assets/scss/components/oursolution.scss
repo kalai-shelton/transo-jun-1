@@ -71,26 +71,26 @@
   box-shadow: -35px -21px 25px rgba(0, 0, 0, 0.08),-11px -7px 25px rgba(0, 0, 0, 0.08);
   border-radius: 10%;
   height: 350px;
-  width:450px;
+  width:80%;
   margin-right: 55px;
   margin-bottom: 30px;
   @include mobile {
     height: 300px;
-   width: 400px;
+  // width: 20rem;
     margin-bottom: 30px;
     padding: 30px;
     padding-top: 30px;
     }
     @include tablet{
       align-self:center;
-      width: 400px;
+      width:100%;
       margin-right: 0;
       margin-top: 10px;
       }
       
 }
 .capOpH li,.capOpHExp li{
-   line-height: 27px;;
+  line-height: 30px;
 }
 .capOpHExp {
   //display: flex;
@@ -98,14 +98,14 @@
   margin-top: 60px;
   box-shadow: -35px -21px 25px rgba(0, 0, 0, 0.08),-11px -7px 25px rgba(0, 0, 0, 0.08);
   border-radius: 10%;
-  height: 400px;
-  width:450px;
+  height: 420px;
+  width:85%;
   margin-right: 55px;
  margin-bottom: 30px;
-  @include mobile {
+  @include tablet {
     margin-top: 30px;
     height: 500px;
-    width: 400px;
+    width: 100%;
     margin-bottom: 30px;
   }
 }
@@ -125,19 +125,25 @@
   width: 10rem;
   height: 80%;
   padding-right: 10px;
-  @include desktop {
-   
+  @include tablet {
+   width: 6rem;
+   height: 70%;
   }
 }
 
 .capOpH1 {
   color: $text-color-primary;
-   @include mobile {
+   @include tablet {
+    font-size: 23px;
    }
-}
+  }
 .capOpH2 {
   text-align: left;
+  @include tablet {
+    font-size: 23px;
+   }
 }
+
 
 .analytics-h1 {
   font-weight: bold;
